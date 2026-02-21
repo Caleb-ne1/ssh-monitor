@@ -1,0 +1,7 @@
+{
+  "framework": "python",
+  "dependencies": {
+    "watchdog": "6.0.0",
+    "PyYAML": "6.0.3"
+  }
+}
