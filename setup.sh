@@ -40,9 +40,6 @@ User=$RUN_USER
 ExecStart=$BIN_PATH
 Restart=on-failure
 RestartSec=5s
-StandardOutput=syslog
-StandardError=syslog
-SyslogIdentifier=$APP_NAME
 
 [Install]
 WantedBy=multi-user.target
